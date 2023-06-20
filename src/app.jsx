@@ -34,11 +34,11 @@ function App() {
 
           {/* we want to protect these routes  */}
           <Route element={<RequireAuth allowedRoles={[ROLES.MINING]} />}>
-            <Route path="/mining" element={<DashboardMining />} />
+            {/* <Route path="/mining" element={<DashboardMining />} /> */}
           </Route>
 
           <Route element={<RequireAuth allowedRoles={[ROLES.ADMIN]} />}>
-            <Route path="/admin" element={<Dashboard />} />
+            <Route path="/admin" element={<Analytics />} />
             <Route path="/analytics" element={<Analytics />} />
             <Route path="/invoice" element={<Invoice />} />
             <Route path="/product" element={<Product />} />
@@ -50,10 +50,7 @@ function App() {
 
           <Route
             element={<RequireAuth allowedRoles={[ROLES.SELLER]} />}
-          >
-
-
-          </Route>
+          ></Route>
 
           <Route path="*" element={<Missing />} />
         </Route>
