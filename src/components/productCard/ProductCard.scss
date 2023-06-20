@@ -1,0 +1,46 @@
+.container {
+  display: flex;
+  align-items: center;
+  width: 228px;
+  height: 80px;
+  border-radius: 10px;
+  padding: 28px;
+  flex-direction: row;
+  background-color: #ffffff;
+  border: 1px solid #ffffff;
+  margin: 70px;
+  margin-left: 0;
+  margin-bottom: 0;
+  margin-top: 20px;
+
+  .icon-container {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    background-color: #e7b2a1;
+    margin-right: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    .icon {
+      width: 30px;
+      height: 30px;
+      color: #ff8f6b;
+    }
+  }
+  .text {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+
+    .quantity {
+      font-size: 22px;
+      font-weight: 700;
+    }
+    .type {
+      font-size: 14px;
+      font-weight: 400;
+      color: #908f8f;
+    }
+  }
+}

@@ -1,0 +1,16 @@
+.parent {
+  display: flex;
+  flex-direction: row;
+}
+.parent .save-products .icon-container {
+  background-color: #f7f6ff;
+}
+.parent .stock-products .icon-container {
+  background-color: #fff7e1;
+}
+.parent .sales-products .icon-container {
+  background-color: #fff4f0;
+}
+.parent .invitation-tender .icon-container {
+  background-color: #f7f6ff;
+}/*# sourceMappingURL=ProductCardParent.css.map */

@@ -1,0 +1,10 @@
+.dateRangePickerContainer {
+  display: flex;
+  height: 70px;
+  width: 370px;
+  padding-left: 20px;
+  align-items: center;
+}
+.dateRangePickerContainer .autocomStarter {
+  margin-right: 15px;
+}/*# sourceMappingURL=Date.css.map */

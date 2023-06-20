@@ -1,0 +1,19 @@
+.parent {
+  display: flex;
+  flex-direction: row;
+  .save-products .icon-container {
+    background-color: #f7f6ff;
+  }
+
+  .stock-products .icon-container {
+    background-color: #fff7e1;
+  }
+
+  .sales-products .icon-container {
+    background-color: #fff4f0;
+  }
+
+  .invitation-tender .icon-container {
+    background-color: #f7f6ff;
+  }
+}

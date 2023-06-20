@@ -1,0 +1,17 @@
+.productWrapper {
+  display: flex;
+  .sideBar {
+    width: 270px;
+    margin-right: 20px;
+  }
+  .productSide {
+    flex: 1;
+    .navBarProduct {
+      margin-bottom: 40px;
+    }
+
+    .tableProducts {
+      margin-bottom: 40px;
+    }
+  }
+}

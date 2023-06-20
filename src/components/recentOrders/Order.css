@@ -1,0 +1,41 @@
+@charset "UTF-8";
+:root {
+  --couleur-secondaire-1: #26c0e2; /* Nom suggéré : --bleu-turquoise */
+  --bg-white: #fff;
+  --couleur-secondaire-2: #030229; /* Nom suggéré : --Bleu-nuit */
+}
+
+.recent-order table {
+  width: 952px;
+  border-collapse: collapse;
+  border-radius: 10px;
+  background-color: var(--bg-white);
+}
+.recent-order table th,
+.recent-order table td {
+  padding: 20px;
+  border-bottom: 1px solid var(--bg-white);
+  text-align: center;
+  font-size: 12px;
+}
+.recent-order table th {
+  font-weight: bold;
+}
+.recent-order table td {
+  vertical-align: middle;
+}
+.recent-order table .total {
+  background-color: #e9f9fc;
+  color: var(--couleur-secondaire-1);
+  text-align: center;
+}
+.recent-order table .product-icon {
+  margin-right: 10px;
+  display: inline-block;
+  vertical-align: middle;
+}
+.recent-order table h2 {
+  font-size: 18px;
+  margin-bottom: 20px;
+  color: var(--couleur-secondaire-2);
+}/*# sourceMappingURL=Order.css.map */

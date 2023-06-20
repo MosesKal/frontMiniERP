@@ -1,0 +1,49 @@
+:root {
+  --bg-white: #fff;
+  --flex: flex;
+}
+
+.boardContaner {
+  display: flex;
+  width: 100%;
+}
+.boardContaner .child1 {
+  width: 270px;
+}
+.boardContaner .child2 {
+  flex: 1;
+  max-width: calc(100% - 270px);
+  display: flex;
+  flex-direction: column;
+  padding-left: 0;
+  margin-left: 20px;
+}
+.boardContaner .child2 .navbarDashboard {
+  margin-top: 40px;
+}
+.boardContaner .child2 .repo-analityc {
+  margin-top: 20px;
+  display: flex;
+  height: 418px;
+  margin-right: 20px;
+  align-items: center;
+}
+.boardContaner .child2 .repo-analityc .report {
+  width: 752px;
+  height: 408px;
+  border-radius: 10px;
+  margin-right: 30px;
+}
+.boardContaner .child2 .repo-analityc .analytic {
+  width: 430px;
+  height: 408px;
+  border-radius: 10px;
+}
+
+.costume {
+  width: 200px;
+}
+
+.bg-white {
+  background-color: var(--bg-white);
+}/*# sourceMappingURL=Dashboard.css.map */

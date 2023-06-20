@@ -1,0 +1,12 @@
+.calendarContainer {
+  display: flex;
+
+  .sideBar {
+    width: 270px;
+    margin-right: 20px;
+  }
+
+  .searchSide {
+    flex: 1;
+  }
+}

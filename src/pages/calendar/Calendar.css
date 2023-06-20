@@ -1,0 +1,10 @@
+.calendarContainer {
+  display: flex;
+}
+.calendarContainer .sideBar {
+  width: 270px;
+  margin-right: 20px;
+}
+.calendarContainer .searchSide {
+  flex: 1;
+}/*# sourceMappingURL=Calendar.css.map */

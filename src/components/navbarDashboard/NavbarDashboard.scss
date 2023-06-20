@@ -1,0 +1,11 @@
+.navbarWrapper {
+  display: flex;
+  align-items: center;
+  .title {
+    margin-right: 40px;
+    font-size: 0.8 rem;
+  }
+  .searchContainer {
+    margin-left: 160px;
+  }
+}

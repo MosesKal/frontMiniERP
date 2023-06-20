@@ -1,0 +1,71 @@
+:root {
+  --dflex: flex;
+  --mdBlue: #030229;
+}
+
+body {
+  background-color: #f7f7f8;
+}
+
+.analytic-Contaner {
+  width: 100%;
+}
+.analytic-Contaner .child1 {
+  width: 270px;
+}
+.analytic-Contaner .child2 {
+  flex: 1;
+  flex-direction: column;
+  max-width: calc(100% - 270px);
+  margin-left: 20px;
+  overflow: hidden;
+  padding-top: 20px;
+}
+.analytic-Contaner .child2 > .header {
+  flex-direction: row;
+  justify-content: space-between;
+}
+.analytic-Contaner .child2 > .header h1 {
+  float: left;
+  margin: 0;
+  font-size: 24px;
+  color: var(--mdBlue);
+}
+.analytic-Contaner .child2 > .header .button {
+  float: right;
+}
+.analytic-Contaner .child2 table {
+  border-collapse: collapse;
+  margin-top: 30px;
+  width: 1450px;
+}
+.analytic-Contaner .child2 table tbody tr {
+  border: none;
+  border-radius: 10px;
+  margin: 20px;
+}
+.analytic-Contaner .child2 table tbody tr td {
+  vertical-align: middle;
+}
+.analytic-Contaner .child2 table tbody .colums {
+  border: none;
+}
+.analytic-Contaner .child2 table th,
+.analytic-Contaner .child2 table td {
+  padding: 20px;
+  text-align: left;
+  font-size: 14px;
+}
+.analytic-Contaner .child2 table th {
+  font-weight: lighter;
+  color: #030229;
+}
+.analytic-Contaner .child2 table .product-icon {
+  margin-right: 10px;
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.flex {
+  display: var(--dflex);
+}/*# sourceMappingURL=Analytics.css.map */

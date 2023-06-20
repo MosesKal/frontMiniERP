@@ -1,0 +1,17 @@
+.searchContainer {
+  display: flex;
+  align-items: center;
+  .textInput {
+    width: 400px;
+    height: 40px;
+    border: 1px solid #e9e8e8;
+    border-radius: 5px;
+  }
+
+  .searchIcon {
+    margin-left: 5px;
+    font-size: 20px;
+    font-weight: 400;
+    color: #747474;
+  }
+}

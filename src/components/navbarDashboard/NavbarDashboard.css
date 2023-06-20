@@ -1,0 +1,11 @@
+.navbarWrapper {
+  display: flex;
+  align-items: center;
+}
+.navbarWrapper .title {
+  margin-right: 40px;
+  font-size: 0.8 rem;
+}
+.navbarWrapper .searchContainer {
+  margin-left: 160px;
+}/*# sourceMappingURL=NavbarDashboard.css.map */

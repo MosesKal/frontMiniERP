@@ -1,0 +1,138 @@
+.invoceContainer {
+  display: flex;
+  width: 100%;
+  height: fit-content;
+
+  .sideBar {
+    width: 270px;
+    height: 900px;
+    margin-right: 20px;
+  }
+
+  .listContainer {
+    flex: 1;
+    width: 1520px;
+    display: flex;
+    flex-direction: column;
+
+    .invoceNavbar {
+      height: 80px;
+      border: 1px solid blue($color: #000000);
+      // background-color: #531818;
+      display: flex;
+      justify-content: space-evenly;
+      align-items: center;
+      margin-bottom: 40px;
+
+      width: 100%;
+      margin-bottom: 30px;
+
+      .wrapper {
+        display: flex;
+        width: 100%;
+        justify-content: center;
+        align-items: center;
+        .navTitle {
+          font-size: 14px;
+          // border: 1px solid blue($color: #00893b86);
+          // margin-left: -283px;
+        }
+
+        .navButtons {
+          display: flex;
+          right: 0;
+          top: 0;
+          align-items: center;
+          // margin-left: 300px;
+
+          .searchInput {
+            margin-right: 30px;
+          }
+        }
+      }
+    }
+
+    table {
+      border-collapse: collapse;
+      margin-top: 30px;
+      width: 1450px;
+
+      tbody {
+        tr {
+          border: none;
+          border-radius: 10px;
+          margin: 20px;
+
+          td {
+            vertical-align: middle;
+
+            .star {
+              .starIcon {
+                font-size: 16px;
+              }
+            }
+          }
+
+          .tdEmailIcon {
+            display: "inline-flex";
+            align-items: "center";
+          }
+
+          .emailIcon {
+            margin-right: 20px;
+            color: #3a974c;
+          }
+        }
+        .colums {
+          border: none;
+        }
+      }
+
+      th,
+      td {
+        padding: 20px;
+        text-align: left;
+        font-weight: 500;
+        font-size: 14px;
+      }
+
+      th {
+        font-weight: lighter;
+        color: #030229;
+      }
+
+      .product-icon {
+        margin-right: 10px;
+        display: inline-block;
+        vertical-align: middle;
+      }
+
+      .tdCalender {
+        display: "inline-flex";
+        align-items: "center";
+
+        .spanCalendar {
+          margin-right: 10px;
+          color: #4285f4;
+        }
+      }
+    }
+  }
+}
+
+.complete-color {
+  color: #3a974c;
+}
+
+.cancelling-color {
+  color: #d11a2a;
+}
+
+.pending-color {
+  color: #f29339;
+}
+.row1 {
+  background-color: white;
+  border: 1px solide rgb(3, 3, 3);
+  border-radius: 10px;
+}

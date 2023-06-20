@@ -1,0 +1,44 @@
+.container {
+  display: flex;
+  align-items: center;
+  width: 228px;
+  height: 80px;
+  border-radius: 10px;
+  padding: 28px;
+  flex-direction: row;
+  background-color: #ffffff;
+  border: 1px solid #ffffff;
+  margin: 70px;
+  margin-left: 0;
+  margin-bottom: 0;
+  margin-top: 20px;
+}
+.container .icon-container {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  background-color: #e7b2a1;
+  margin-right: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.container .icon-container .icon {
+  width: 30px;
+  height: 30px;
+  color: #ff8f6b;
+}
+.container .text {
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+}
+.container .text .quantity {
+  font-size: 22px;
+  font-weight: 700;
+}
+.container .text .type {
+  font-size: 14px;
+  font-weight: 400;
+  color: #908f8f;
+}/*# sourceMappingURL=ProductCard.css.map */

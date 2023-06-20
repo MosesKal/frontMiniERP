@@ -1,0 +1,114 @@
+.invoceContainer {
+  display: flex;
+  width: 100%;
+  height: -moz-fit-content;
+  height: fit-content;
+}
+.invoceContainer .sideBar {
+  width: 270px;
+  height: 900px;
+  margin-right: 20px;
+}
+.invoceContainer .listContainer {
+  flex: 1;
+  width: 1520px;
+  display: flex;
+  flex-direction: column;
+}
+.invoceContainer .listContainer .invoceNavbar {
+  height: 80px;
+  border: 1px solid 0;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  margin-bottom: 40px;
+  width: 100%;
+  margin-bottom: 30px;
+}
+.invoceContainer .listContainer .invoceNavbar .wrapper {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+}
+.invoceContainer .listContainer .invoceNavbar .wrapper .navTitle {
+  font-size: 14px;
+}
+.invoceContainer .listContainer .invoceNavbar .wrapper .navButtons {
+  display: flex;
+  right: 0;
+  top: 0;
+  align-items: center;
+}
+.invoceContainer .listContainer .invoceNavbar .wrapper .navButtons .searchInput {
+  margin-right: 30px;
+}
+.invoceContainer .listContainer table {
+  border-collapse: collapse;
+  margin-top: 30px;
+  width: 1450px;
+}
+.invoceContainer .listContainer table tbody tr {
+  border: none;
+  border-radius: 10px;
+  margin: 20px;
+}
+.invoceContainer .listContainer table tbody tr td {
+  vertical-align: middle;
+}
+.invoceContainer .listContainer table tbody tr td .star .starIcon {
+  font-size: 16px;
+}
+.invoceContainer .listContainer table tbody tr .tdEmailIcon {
+  display: "inline-flex";
+  align-items: "center";
+}
+.invoceContainer .listContainer table tbody tr .emailIcon {
+  margin-right: 20px;
+  color: #3a974c;
+}
+.invoceContainer .listContainer table tbody .colums {
+  border: none;
+}
+.invoceContainer .listContainer table th,
+.invoceContainer .listContainer table td {
+  padding: 20px;
+  text-align: left;
+  font-weight: 500;
+  font-size: 14px;
+}
+.invoceContainer .listContainer table th {
+  font-weight: lighter;
+  color: #030229;
+}
+.invoceContainer .listContainer table .product-icon {
+  margin-right: 10px;
+  display: inline-block;
+  vertical-align: middle;
+}
+.invoceContainer .listContainer table .tdCalender {
+  display: "inline-flex";
+  align-items: "center";
+}
+.invoceContainer .listContainer table .tdCalender .spanCalendar {
+  margin-right: 10px;
+  color: #4285f4;
+}
+
+.complete-color {
+  color: #3a974c;
+}
+
+.cancelling-color {
+  color: #d11a2a;
+}
+
+.pending-color {
+  color: #f29339;
+}
+
+.row1 {
+  background-color: white;
+  border: 1px solide rgb(3, 3, 3);
+  border-radius: 10px;
+}/*# sourceMappingURL=Invoice.css.map */
