@@ -5,6 +5,9 @@
   --couleur-secondaire-2: #030229; /* Nom suggéré : --Bleu-nuit */
 }
 
+.recent-order {
+  margin-top: 40px;
+}
 .recent-order table {
   width: 952px;
   border-collapse: collapse;

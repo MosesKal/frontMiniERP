@@ -1,0 +1,55 @@
+:root {
+  --bg-white: #fff;
+  --flex: flex;
+}
+
+.boardContaner {
+  display: flex;
+  width: 100%;
+
+  .child1 {
+    width: 270px;
+  }
+  .child2 {
+    flex: 1;
+    max-width: calc(100% - 270px);
+    display: flex;
+    flex-direction: column;
+    padding-left: 0;
+    margin-left: 20px;
+
+    .navbarDashboard {
+      margin-top: 40px;
+    }
+    .repo-analityc {
+      margin-top: 20px;
+      display: flex;
+      height: 418px;
+      margin-right: 20px;
+      margin-bottom: auto;
+      align-items: center;
+      .report {
+        width: 800px;
+        height: 408px;
+        border-radius: 10px;
+        margin-right: 30px;
+      }
+      .analytic {
+        width: 430px;
+        height: 408px;
+        border-radius: 10px;
+      }
+    }
+
+    .order {
+      margin-top: 80px;
+    }
+  }
+}
+.costume {
+  width: 200px;
+}
+
+.bg-white {
+  background-color: var(--bg-white);
+}
